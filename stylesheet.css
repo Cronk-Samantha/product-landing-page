@@ -1,3 +1,25 @@
 * {
     background-color: #eae4dd;
+    font-family: Georgia, sans-serif;
+}
+
+body {
+    margin: 0 1rem;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #c1af9a;
+    padding-bottom: 0;
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 1rem;
+    font-size: 18px;
 }
