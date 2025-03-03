@@ -3,10 +3,6 @@
     font-family: Georgia, sans-serif;
 }
 
-body {
-    margin: 0 1rem;
-}
-
 #header {
     display: flex;
     justify-content: space-between;
@@ -16,6 +12,11 @@ body {
     width: 100%;
     border-bottom: 2px solid #c1af9a;
     padding-bottom: 0;
+}
+
+#header-img {
+    object-fit: cover;
+    max-width: 100%;
 }
 
 .nav-link {
