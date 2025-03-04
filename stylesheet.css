@@ -1,6 +1,7 @@
 * {
     background-color: #eae4dd;
     font-family: Georgia, sans-serif;
+    color: #5c4033;
 }
 
 body {
@@ -27,6 +28,7 @@ body {
     display: inline-block;
     margin: 1rem;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .hero-section {
