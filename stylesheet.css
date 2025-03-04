@@ -3,6 +3,10 @@
     font-family: Georgia, sans-serif;
 }
 
+body {
+    padding: 0 1.5rem;
+}
+
 #header {
     display: flex;
     justify-content: space-between;
