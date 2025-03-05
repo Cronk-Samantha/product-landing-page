@@ -1,11 +1,13 @@
 * {
     font-family: Georgia, sans-serif; 
+    box-sizing: border-box;
 }
 
 body {
-    padding: 0 1.5rem;
     background-color: #eae4dd;
     color: #5c4033;
+    width: 100vw;
+    padding: 0 3%;
 }
 
 #header {
@@ -18,6 +20,7 @@ body {
     width: 100%;
     border-bottom: 2px solid #c1af9a;
     padding-bottom: 0;
+    background-color: #eae4dd;
 }
 
 #header-img {
@@ -32,9 +35,12 @@ body {
     text-decoration: none;
 }
 
+/* HERO SECTION */
+
 .hero-section {
     width: 100%;
     height: 75vh;
+    margin-top: 1em;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
