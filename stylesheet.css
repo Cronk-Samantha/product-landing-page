@@ -130,3 +130,46 @@ iframe {
     height: 315px;
     margin-top: 75px;
 }
+
+.section3-header {
+    text-align: center;
+    margin: 3em 0;
+}
+
+.ol-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    list-style-position: inside;
+}
+
+.ol-parent > li {
+    width: 90%;
+    border: 2px dashed #5c4033;
+    padding: 2em;
+    text-align: justify;
+    border-radius: 5px;
+    line-height: 1.3;
+}
+
+.ol-parent > li::marker {
+    font-size: 2em;
+    font-weight: 800;
+    margin: 2rem;
+    color: #7f8c4e;
+}
+
+.section3-subheader {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 2em;
+}
+
+.special-text {
+    font-size: 2em;
+    font-weight: bold;
+    color: #7f8c4e;
+}
